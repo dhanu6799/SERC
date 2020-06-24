@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page</title>
+</head>
+<body>
+<p>
+<img src="img_chania.jpg" alt="Example" align="right">
+Aligns to the right
+<br>
+The image floats to the right.
+<br>
+And the text wraps to the left of the image.
+<br clear="right">
+Clears the right
+</p>
+</body>
+</html>
