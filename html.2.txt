@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Dhanu </title>
+<body>
+
+
+<h1>Mahatma Gandhi Institute of Technology</h1>
+<br>
+<h2>Information Technology</h2>
+
+</body>
+</html>
