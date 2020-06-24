@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Course </title>
+</head>
+<body>
+
+<h1>An OrderedList of my courses</h1>
+
+<ol>
+  <li>Python
+    <ul>
+      <li>Data types</li>
+      <li>Data structure</li>
+    </ul>
+  </li>
+  <li>Machine learning
+    <ul>
+      <li>clustering</li>
+      <li>Data structure</li>
+    </ul>
+  </li>
+</ol> 
+
+</body>
+</html>
