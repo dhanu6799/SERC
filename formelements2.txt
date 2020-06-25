@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> FORM </title>
+</head>
+<body>
+
+<h2>Fill the form</h2>
+
+<form action="display.html" method="GET">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+<br>
+</p>
+Enter contact: <input type = "text" name = "enter_contact" />
+<br>
+</p>
+ <input type = "checkbox" name = "Bachelors" value = "on"> Bachelors
+<input type = "checkbox" name = "masters" value = "on"> masters
+<input type = "checkbox" name = "other" value = "on"> other
+<br>
+Description: <input type = "text" name = "enter_description" />
+<br>
+Subjects :
+<br>
+<input type = "checkbox" name = "math" value = "on"> math
+<br>
+<input type = "checkbox" name = "physics" value = "on"> physics
+<br>
+<input type = "checkbox" name = "chem" value = "on"> chem
+<br>
+</p>
+  <input type="submit">
+</form>
+
+</body>
+</html>
