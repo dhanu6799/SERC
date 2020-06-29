@@ -1,0 +1,121 @@
+                                                                          What is JavaScript?
+
+
+JavaScript ("JS" for short) is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich 
+(co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation.
+
+JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps,
+and much more!
+
+JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount
+of functionality with minimum effort. 
+These include:
+
+Browser Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and 
+manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.
+Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.
+Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications.
+It's outside the scope of this article—as a light introduction to JavaScript—to present the details of how the core JavaScript language is different from the tools listed above. 
+
+
+                                                                       JavaScript building blocks:
+-----Making decisions in your code — conditionals
+In any programming language, code needs to make decisions and carry out actions accordingly depending on different inputs. For example, in a game, if the player's number of 
+lives is 0, then it's game over. In a weather app, if it is being looked at in the morning, show a sunrise graphic; show stars and a moon if it is nighttime. 
+-----Looping code
+Sometimes you need a task done more than once in a row. For example, looking through a list of names. In programming, loops perform this job very well. 
+-----Functions — reusable blocks of code
+Another essential concept in coding is functions. Functions allow you to store a piece of code that does a single task inside a defined block, and then call that code whenever
+you need it using a single short command — rather than having to type out the same code multiple times.
+-----Build your own function
+With most of the essential theory dealt with previously, this article provides a practical experience. 
+-----Function return values
+The last essential concept you must know about a function is return values. Some functions don't return a significant value after completion, but others do. It's important to
+understand what their values are, how to make use of them in your code, and how to make your own custom functions return useful values. 
+-----Introduction to events
+Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired. For example
+if the user clicks a button on a webpage, you might want to respond to that action by displaying an information box. 
+
+
+
+
+                                                                     Introducing JavaScript objects:
+-----Object basics
+In the first article looking at JavaScript objects, we'll look at fundamental JavaScript object syntax, and revisit some JavaScript features we've already looked at earlier
+on in the course, reiterating the fact that many of the features you've already dealt with are in fact objects.
+-----Object-oriented JavaScript for beginners
+With the basics out of the way, we'll now focus on object-oriented JavaScript (OOJS) — this article presents a basic view of object-oriented programming (OOP) theory, then
+explores how JavaScript emulates object classes via constructor functions, and how to create object instances.
+-----Object prototypes
+Prototypes are the mechanism by which JavaScript objects inherit features from one another, and they work differently to inheritance mechanisms in classical object-oriented
+programming languages. In this article, we explore that difference, explain how prototype chains work, and look at how the prototype property can be used to add methods to 
+existing constructors.
+-----Inheritance in JavaScript
+With most of the gory details of OOJS now explained, we can shows how to create "child" object classes (constructors) that inherit features from their "parent" classes.
+In addition, we present some advice on when and where you might use OOJS.
+-----Working with JSON data
+JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax, which is commonly used for representing
+and transmitting data on web sites (i.e. sending some data from the server to the client, so it can be displayed on a web page). You'll come across it quite often, we give you all you need to work with JSON using JavaScript, including parsing the JSON so you can access data items within it and writing your own JSON.
+-----Object building practice
+Previously we looked at all the essential JavaScript object theory and syntax details, giving you a solid base to start from. We dive into a practical
+exercise, giving you some more practice in building custom JavaScript objects, which produce something fun and colorful — some colored bouncing balls.
+
+
+
+
+
+                                                                            Asynchronous JavaScript:
+ ------General asynchronous programming concepts
+In this article we'll run through a number of important concepts relating to asynchronous programming, and how this looks in web browsers and JavaScript. 
+------Introducing asynchronous JavaScript
+In this article we briefly recap the problems associated with sychronous JavaScript, and take a first look at some of the different asynchronous JavaScript techniques you'll 
+encounter, showing how they can help us solve such problems.
+------Cooperative asynchronous JavaScript: Timeouts and intervals
+Here we look at the traditional methods JavaScript has available for running code asychronously after a set time period has elapsed, or at a regular interval 
+(e.g. a set number of times per second), talk about what they are useful for, and look at their inherent issues.
+------Handling async operations gracefully with Promises
+Promises are a comparatively new feature of the JavaScript language that allow you to defer further actions until after the previous action has completed, or respond to its 
+failure. This is really useful for setting up a sequence of operations to work correctly. This article shows you how promises work, where you'll see them in use in WebAPIs, 
+and how to write your own.
+------Making asynchronous programming easier with async and await
+Promises can be somewhat complex to set up and understand, and so modern browsers have implemented async functions and the await operator. The former allows standard functions 
+to implicitly behave asynchronously with promises, whereas the latter can be used inside async functions to wait for promises before the function continues. This makes chaining
+promises simpler and easier to read.
+------Choosing the right approach
+To finish this module off, we'll consider the different coding techniques and features we've discussed throughout, looking at which ones you should use when, with 
+recommendations and reminders of common pitfalls where appropriate.
+
+
+
+
+                                                                                 Client-side web APIs:
+-----Introduction to web APIs
+First up, we'll start by looking at APIs from a high level — what are they, how do they work, how do you use them in your code, and how are they structured? We'll also take a 
+look at what the different main classes of APIs are, and what kind of uses they have.
+-----Manipulating documents
+When writing web pages and apps, one of the most common things you'll want to do is manipulate web documents in some way. This is usually done by using the Document Object Model
+(DOM), a set of APIs for controlling HTML and styling information that makes heavy use of the Document object. In this article, we'll look at how to use the DOM in detail, 
+along with some other interesting APIs that can alter your environment in interesting ways.
+-----Fetching data from the server
+Another very common task in modern websites and applications is retrieving individual data items from the server to update sections of a webpage without having to load an
+entirely new page. This seemingly small detail has had a huge impact on the performance and behavior of sites.  In this article, we'll explain the concept, and look at 
+technologies that make it possible, such as XMLHttpRequest and the Fetch API.
+-----Third party APIs
+The APIs we've covered so far are built into the browser, but not all APIs are. Many large websites and services such as Google Maps, Twitter, Facebook, PayPal, etc. provide 
+APIs allowing developers to make use of their data (e.g. displaying your twitter stream on your blog) or services (e.g. displaying custom Google Maps on your site, or using
+Facebook login to log in your users). This article looks at the difference between browser APIs and 3rd party APIs and shows some typical uses of the latter.
+-----Drawing graphics
+The browser contains some very powerful graphics programming tools, from the Scalable Vector Graphics (SVG) language, to APIs for drawing on HTML <canvas> elements, 
+(see The Canvas API and WebGL). This article provides an introduction to the Canvas API, and further resources to allow you to learn more.
+-----Video and audio APIs
+HTML5 comes with elements for embedding rich media in documents — <video> and <audio> — which in turn come with their own APIs for controlling playback, seeking, etc.
+This article shows you how to do common tasks such as creating custom playback controls.
+------Client-side storage
+Modern web browsers feature a number of different technologies that allow you to store data related to web sites and retrieve it when necessary allowing you to persist data
+long term, save sites offline, and more. This article explains the very basics of how these work.
+
+
+
+
+
+   
